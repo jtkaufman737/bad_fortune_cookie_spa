@@ -43,11 +43,11 @@ export default {
       axios({
         method:'get',
         url:'https://bad-fortune-cookie.herokuapp.com/fortunes/',
-        headers: {
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': '*'
-        }
+        // headers: {
+        //   'Content-Type': 'application/json',
+        //   'Access-Control-Allow-Origin': '*',
+        //   'Access-Control-Allow-Methods': '*'
+        // }
       }).then(res => {
 
         let results = res.data;
